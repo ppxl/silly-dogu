@@ -1,0 +1,15 @@
+{
+  "Name": "official/silly-dogu",
+  "Version": "0.1.0-1",
+  "DisplayName": "Silly Dogu",
+  "Description": "A simple dogu to demonstrate alternative nginx routes",
+  "Image": "registry.cloudogu.com/official/silly-dogu",
+  "Category": "Administration Apps",
+  "Tags": [
+    "warp"
+  ],
+  "HealthCheck": {
+    "Type": "tcp",
+    "Port": 8080
+  }
+}
